@@ -49,16 +49,18 @@ alias sshmatassi='ssh sjc-ads-4532'
 alias vmconx='ssh -X abhigaut-vm'
 alias bashrc='vim ~/.bash_profile'
 alias actalias='source ~/.bash_profile'
+alias netcon='ping 4.2.2.2'
 
 # SET ALIASES FOR ITUNES CONTROL VIA CLI
 alias fire='desk ; ./iTunes.sh play'
-alias x='desk ; ./iTunes.sh pause'
+alias xP='desk ; ./iTunes.sh pause'
+alias xS='desk ; ./iTunes.sh stop'
 alias next='desk ; ./iTunes.sh next'
 alias prev='desk ; ./iTunes.sh prev'
 alias info='desk ; ./iTunes.sh status'
 alias mix='desk ; ./iTunes.sh shuf'
 alias tracks='desk ; ./iTunes.sh tracks'
-alias x9='desk ; ./iTunes.sh stop'
+alias x9='desk ; ./iTunes.sh quit'
 
 # SET ALIASES FOR GOOGLER - A SHELL BASED SEARCH SERVICE
 alias g='desk ; ./googler.sh'
